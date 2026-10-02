@@ -20,7 +20,8 @@
 		],
 		"fabric-datagen": [
 			"hema.mission.MissionDataGenerator"
-		]
+		],
+		"client": ["hema.mission.MissionClient"]
 	},
 	"mixins": [
 		"mission.mixins.json"
