@@ -1,9 +1,8 @@
-package hema.mission;
+package hema.mission.quest;
 
 import net.minecraft.server.network.ServerPlayerEntity;
-import org.spongepowered.asm.mixin.Interface;
 
-public interface QuestInterfacee {
+public interface Quest {
     String title();
     String note();
     int goal();

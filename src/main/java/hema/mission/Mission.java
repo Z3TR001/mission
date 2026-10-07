@@ -1,5 +1,6 @@
 package hema.mission;
 
+import hema.mission.quest.QuestManager;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -13,6 +14,8 @@ public class Mission implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		QuestManager.init();
 
 
 
