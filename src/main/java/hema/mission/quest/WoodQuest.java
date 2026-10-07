@@ -43,7 +43,7 @@ public class WoodQuest implements Quest{
     @Override
     public void reward(ServerPlayerEntity player) {
         List.of(Items.WOODEN_SWORD, Items.WOODEN_PICKAXE, Items.WOODEN_AXE,
-                Items.WOODEN_SHOVEL, Items.WOODEN_HOE)
+                Items.WOODEN_SHOVEL)
                 .forEach(item -> player.getInventory().offerOrDrop(new ItemStack(item)));
     }
 }
