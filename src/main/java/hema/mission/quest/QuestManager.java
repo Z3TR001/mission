@@ -21,6 +21,7 @@ import java.util.List;
 public final class QuestManager {
 
     public static final List<Quest> QUESTS = List.of(
+            new WoodQuest()
 
 
 
