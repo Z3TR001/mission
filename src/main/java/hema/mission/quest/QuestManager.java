@@ -22,7 +22,8 @@ public final class QuestManager {
 
     public static final List<Quest> QUESTS = List.of(
             new WoodQuest(),
-            new KillQuest()
+            new KillQuest(),
+            new FlowerQuest()
 
 
 
